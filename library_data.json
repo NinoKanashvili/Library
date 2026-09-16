@@ -1,0 +1,470 @@
+[
+{
+  "model": "library.author",
+  "pk": 1,
+  "fields": {
+    "name": "mark twain",
+    "biography": "ascasvsavassva",
+    "photo": "authors/1dd601fb30ffa4a082950460ef27860b.jpg"
+  }
+},
+{
+  "model": "library.author",
+  "pk": 2,
+  "fields": {
+    "name": "erix maria remarki",
+    "biography": "ascasvsavassvaasca",
+    "photo": "authors/17cbf0204482055425e17a5015a3c9a9.jpg"
+  }
+},
+{
+  "model": "library.author",
+  "pk": 3,
+  "fields": {
+    "name": "Fredrik Backman",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 4,
+  "fields": {
+    "name": "Matt Haig",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 5,
+  "fields": {
+    "name": "Paulo Coelho",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 6,
+  "fields": {
+    "name": "Markus Zusak",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 7,
+  "fields": {
+    "name": "Jane Austen",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 8,
+  "fields": {
+    "name": "George Orwell",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 9,
+  "fields": {
+    "name": "F. Scott Fitzgerald",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 10,
+  "fields": {
+    "name": "J.R.R. Tolkien",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 11,
+  "fields": {
+    "name": "J.K. Rowling",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 12,
+  "fields": {
+    "name": "James Clear",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.author",
+  "pk": 13,
+  "fields": {
+    "name": "Morgan Housel",
+    "biography": "",
+    "photo": ""
+  }
+},
+{
+  "model": "library.category",
+  "pk": 1,
+  "fields": {
+    "name": "drama",
+    "description": "svasvava"
+  }
+},
+{
+  "model": "library.category",
+  "pk": 2,
+  "fields": {
+    "name": "detectivi",
+    "description": "scasavavsa"
+  }
+},
+{
+  "model": "library.category",
+  "pk": 3,
+  "fields": {
+    "name": "Fiction",
+    "description": ""
+  }
+},
+{
+  "model": "library.category",
+  "pk": 4,
+  "fields": {
+    "name": "Historical Fiction",
+    "description": ""
+  }
+},
+{
+  "model": "library.category",
+  "pk": 5,
+  "fields": {
+    "name": "Classic",
+    "description": ""
+  }
+},
+{
+  "model": "library.category",
+  "pk": 6,
+  "fields": {
+    "name": "Dystopian",
+    "description": ""
+  }
+},
+{
+  "model": "library.category",
+  "pk": 7,
+  "fields": {
+    "name": "Fantasy",
+    "description": ""
+  }
+},
+{
+  "model": "library.category",
+  "pk": 8,
+  "fields": {
+    "name": "Self-Help",
+    "description": ""
+  }
+},
+{
+  "model": "library.category",
+  "pk": 9,
+  "fields": {
+    "name": "Finance",
+    "description": ""
+  }
+},
+{
+  "model": "library.book",
+  "pk": 15,
+  "fields": {
+    "title": "A Man Called Ove",
+    "description": "A Man Called Ove tells the story of a stubborn and lonely man whose life is built around routines, rules, and responsibility. When new neighbors move in, Ove unexpectedly becomes connected to the people around him. The story combines humor and sadness while exploring friendship, love, grief, and the unexpected ways people can change one another.",
+    "cover_image": "covers/images.jpeg",
+    "author": 3,
+    "category": 3,
+    "published_year": 2012,
+    "total_copies": 5,
+    "available_copies": 5,
+    "created_at": "2026-09-16T10:50:52.365Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 16,
+  "fields": {
+    "title": "Anxious People",
+    "description": "Anxious People follows a group of strangers who unexpectedly find themselves together during a failed apartment viewing and a strange hostage situation. Each person has private worries and fears that are not immediately visible to others. The novel explores loneliness, family, forgiveness, human connection, and the ways people can support each other.",
+    "cover_image": "covers/images-2.jpeg",
+    "author": 3,
+    "category": 3,
+    "published_year": 2019,
+    "total_copies": 4,
+    "available_copies": 4,
+    "created_at": "2026-09-16T10:51:46.192Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 17,
+  "fields": {
+    "title": "The Midnight Library",
+    "description": "The Midnight Library follows Nora Seed, who discovers a mysterious library containing countless books representing different versions of her life. Each book allows her to experience what might have happened if she had made different choices. Through these experiences, Nora begins to reconsider regret, happiness, relationships, and what makes a life meaningful.",
+    "cover_image": "covers/images-3.jpeg",
+    "author": 4,
+    "category": 3,
+    "published_year": 2020,
+    "total_copies": 3,
+    "available_copies": 3,
+    "created_at": "2026-09-16T10:52:46.191Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 18,
+  "fields": {
+    "title": "The Alchemist",
+    "description": "The Alchemist follows Santiago, a young shepherd who dreams of discovering a great treasure far from home. His journey takes him across the desert and introduces him to people who change the way he understands the world and himself. Along the way, Santiago learns about dreams, courage, love, perseverance, and following his own path.",
+    "cover_image": "covers/images-4.jpeg",
+    "author": 5,
+    "category": 3,
+    "published_year": 1988,
+    "total_copies": 10,
+    "available_copies": 10,
+    "created_at": "2026-09-16T10:53:31.324Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 19,
+  "fields": {
+    "title": "The Book Thief",
+    "description": "Set in Nazi Germany during World War II, The Book Thief tells the story of Liesel Meminger, a young girl who finds comfort and strength through books and words. As the war changes the lives of everyone around her, Liesel begins stealing books and sharing their stories with others. The novel explores friendship, family, loss, courage, and the power of words.",
+    "cover_image": "covers/images-5.jpeg",
+    "author": 6,
+    "category": 4,
+    "published_year": 2005,
+    "total_copies": 4,
+    "available_copies": 4,
+    "created_at": "2026-09-16T10:54:17.225Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 20,
+  "fields": {
+    "title": "Pride and Prejudice",
+    "description": "Pride and Prejudice follows Elizabeth Bennet, an intelligent and independent young woman dealing with family expectations and social pressures. When she meets the wealthy and seemingly arrogant Mr. Darcy, the two quickly develop a strong dislike for one another. The story explores love, pride, first impressions, marriage, and the importance of looking beyond appearances.",
+    "cover_image": "covers/images-6.jpeg",
+    "author": 7,
+    "category": 5,
+    "published_year": 1813,
+    "total_copies": 6,
+    "available_copies": 6,
+    "created_at": "2026-09-16T11:03:58.413Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 21,
+  "fields": {
+    "title": "1984",
+    "description": "1984 presents a dystopian society where the government exercises enormous control over its citizens and constantly monitors their lives. Winston Smith secretly begins questioning the system he works for and searching for truth and personal freedom. The novel explores surveillance, propaganda, political control, individuality, and the consequences of living under constant observation.",
+    "cover_image": "covers/images-7.jpeg",
+    "author": 8,
+    "category": 6,
+    "published_year": 1949,
+    "total_copies": 2,
+    "available_copies": 2,
+    "created_at": "2026-09-16T11:04:44.249Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 22,
+  "fields": {
+    "title": "The Great Gatsby",
+    "description": "The Great Gatsby is set during the glamorous and extravagant 1920s. Nick Carraway becomes involved in the mysterious world of his wealthy neighbor, Jay Gatsby, whose luxurious lifestyle hides a deeply personal dream connected to his past. The novel explores wealth, ambition, love, social class, illusion, and the American Dream.",
+    "cover_image": "covers/images-8.jpeg",
+    "author": 9,
+    "category": 5,
+    "published_year": 1925,
+    "total_copies": 4,
+    "available_copies": 4,
+    "created_at": "2026-09-16T11:05:20.498Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 23,
+  "fields": {
+    "title": "The Hobbit",
+    "description": "The Hobbit follows Bilbo Baggins, a quiet hobbit whose peaceful life changes when Gandalf and a group of dwarves arrive at his home. Bilbo joins their journey to reclaim a lost kingdom and its treasure from the dragon Smaug. Along the way, he faces dangerous creatures and unexpected challenges that reveal his courage and resourcefulness.",
+    "cover_image": "covers/images-9.jpeg",
+    "author": 10,
+    "category": 7,
+    "published_year": 1937,
+    "total_copies": 8,
+    "available_copies": 8,
+    "created_at": "2026-09-16T11:06:01.150Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 24,
+  "fields": {
+    "title": "Harry Potter and the Philosopher's Stone",
+    "description": "Harry Potter and the Philosopher's Stone introduces Harry, an ordinary boy who discovers that he is actually a wizard. He begins studying at Hogwarts School of Witchcraft and Wizardry, where he makes close friends and learns about magic. Soon, Harry becomes involved in a mystery surrounding a powerful magical object and an old enemy.",
+    "cover_image": "covers/images-10.jpeg",
+    "author": 11,
+    "category": 7,
+    "published_year": 1997,
+    "total_copies": 12,
+    "available_copies": 12,
+    "created_at": "2026-09-16T11:06:32.183Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 25,
+  "fields": {
+    "title": "Atomic Habits",
+    "description": "Atomic Habits explores how small and consistent changes can gradually transform everyday life and produce significant long-term results. James Clear explains how habits are formed and how the systems surrounding our behavior can influence our success. The book provides practical ideas for building good habits, breaking unwanted ones, and creating effective routines.",
+    "cover_image": "covers/Unknown.jpg",
+    "author": 12,
+    "category": 8,
+    "published_year": 2018,
+    "total_copies": 5,
+    "available_copies": 5,
+    "created_at": "2026-09-16T11:07:16.213Z"
+  }
+},
+{
+  "model": "library.book",
+  "pk": 26,
+  "fields": {
+    "title": "The Psychology of Money",
+    "description": "The Psychology of Money explores the emotional and behavioral side of personal finance. Rather than focusing only on mathematical strategies, the book examines how experiences, beliefs, emotions, and habits influence financial decisions. Through different stories and lessons, it discusses saving, wealth, risk, patience, financial independence, and making financial decisions that fit your life.",
+    "cover_image": "covers/images-11.jpeg",
+    "author": 13,
+    "category": 9,
+    "published_year": 2020,
+    "total_copies": 8,
+    "available_copies": 8,
+    "created_at": "2026-09-16T11:08:10.052Z"
+  }
+},
+{
+  "model": "library.borrowing",
+  "pk": 64,
+  "fields": {
+    "user": 16,
+    "book": 19,
+    "borrowed_at": "2026-09-16T11:19:45.136Z",
+    "due_date": "2026-09-18",
+    "returned_at": "2026-09-16T11:20:11.428Z"
+  }
+},
+{
+  "model": "library.borrowing",
+  "pk": 65,
+  "fields": {
+    "user": 1,
+    "book": 19,
+    "borrowed_at": "2026-09-16T11:21:56.124Z",
+    "due_date": "2026-09-17",
+    "returned_at": "2026-09-16T11:22:02.373Z"
+  }
+},
+{
+  "model": "library.borrowing",
+  "pk": 66,
+  "fields": {
+    "user": 1,
+    "book": 19,
+    "borrowed_at": "2026-09-16T11:22:04.659Z",
+    "due_date": "2026-09-17",
+    "returned_at": "2026-09-16T11:22:10.358Z"
+  }
+},
+{
+  "model": "library.borrowing",
+  "pk": 67,
+  "fields": {
+    "user": 1,
+    "book": 19,
+    "borrowed_at": "2026-09-16T11:57:34.573Z",
+    "due_date": "2026-09-18",
+    "returned_at": "2026-09-16T11:57:36.546Z"
+  }
+},
+{
+  "model": "library.borrowing",
+  "pk": 68,
+  "fields": {
+    "user": 1,
+    "book": 19,
+    "borrowed_at": "2026-09-16T11:57:39.348Z",
+    "due_date": "2026-09-19",
+    "returned_at": "2026-09-16T11:57:40.314Z"
+  }
+},
+{
+  "model": "library.review",
+  "pk": 26,
+  "fields": {
+    "user": 16,
+    "book": 15,
+    "rating": 5,
+    "comment": "A very touching story. I really enjoyed the balance between humor and emotion.",
+    "created_at": "2026-09-16T11:17:50.541Z"
+  }
+},
+{
+  "model": "library.review",
+  "pk": 27,
+  "fields": {
+    "user": 16,
+    "book": 17,
+    "rating": 4,
+    "comment": "I loved the idea of exploring different versions of one life. Very thought-provoking.",
+    "created_at": "2026-09-16T11:18:20.307Z"
+  }
+},
+{
+  "model": "library.review",
+  "pk": 28,
+  "fields": {
+    "user": 16,
+    "book": 18,
+    "rating": 3,
+    "comment": "I enjoyed the message of the book and the journey of the main character.",
+    "created_at": "2026-09-16T11:18:41.755Z"
+  }
+},
+{
+  "model": "library.review",
+  "pk": 29,
+  "fields": {
+    "user": 16,
+    "book": 19,
+    "rating": 4,
+    "comment": "A powerful and emotional story. The characters and the way words are used are unforgettable.",
+    "created_at": "2026-09-16T11:19:01.967Z"
+  }
+}
+]
