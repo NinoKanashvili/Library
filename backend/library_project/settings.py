@@ -32,7 +32,7 @@ env.read_env(BASE_DIR.parent / '.env')
 SECRET_KEY = 'django-insecure-vs4+w6&_u(qtwftud)q%^pidjw_%o2c^^0g4@mg96k&x#vip+d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = env.bool('DEBUG', default=False)
 
 ALLOWED_HOSTS = ['*']
 
@@ -177,8 +177,14 @@ SIMPLE_JWT = {
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
     'http://127.0.0.1:5173',
+    'https://library-3-eab8.onrender.com'
 ]
 
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:5173',
+    'http://127.0.0.1:5173',
+    'https://library-3-eab8.onrender.com'
+]
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / 'media'
